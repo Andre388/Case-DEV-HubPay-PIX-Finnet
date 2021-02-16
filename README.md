@@ -39,7 +39,7 @@ e informa a descrição do erro.
 created database, use, create table "clientes", insert into tabela("","","","") values ("","","",""); select from * e drop database ou drop table além do where. (o basico de BD)
 ------------------------------------------------------------------------------------------------------------------------------------
 voltando no meu index.php do meu e-commerce:
-criada uma variavel: $consulta = select * fom "nome_da_tabela";(essa consulta vai selecionar todas as linhas e colunas da tabela ("tabela")
+criada uma variavel: $consulta = select * from "nome_da_tabela";(essa consulta vai selecionar todas as linhas e colunas da tabela ("tabela")
 agora que eu ja tenho minha consulta, eu vou chamar a função, vou criar uma variavel $con e vou armazenar ela minha consulta (isso vai efetuar a minha consulta e vai mostrar se tiver erros.
 ------------------------------------------------------------------------------------------------------------------------------------
 No index.php note que foi criado uma estrutura de colunas, e nelas inserido o nome das colunas
