@@ -71,7 +71,7 @@ No index.php note que foi criado uma estrutura de colunas, e nelas inserido o no
   ------------------------------------------------------------------------------------------------------------------------------------
   depois la no CSS eu vou estilizar a minha tabela, posso criar classe, border, colocar ids na table enfim so consegui fazer a conexão e estilizar o e-commerce!
   Este e o Fim do arquivo README.
-  Favor considerar todo o trabalho afim de mesmo de não houver integraão com meios de pagamento.
+  Favor considerar todo o trabalho afim de mesmo de não houver integração com os meios de pagamento.
   ------------------------------------------------------------------------------------------------------------------------------------
   -END README.
   
