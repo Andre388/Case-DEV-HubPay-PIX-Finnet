@@ -20,6 +20,7 @@ if($mysqli->connect_errno)
 echo "falha na conexão: (" .$mysqli->connect_errno. ") ".$mysqli->connect_error;
 
 // retorna se ouve algum erro se caso não ela retorna false.
+// fim do arquivo de conexão ao Banco de dados
 
 
 
