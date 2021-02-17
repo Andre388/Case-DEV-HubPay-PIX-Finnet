@@ -28,7 +28,7 @@
     
     
     <!-- Inicio da Form -->    
-<form action="">
+<form action="#">
     <label>
         <span id="span"> Busca </span>
         <input type="search"  name="pesquisa" id="pesquisa" placeholder="Pesquisar" lang="pt-br">
