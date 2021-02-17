@@ -1,0 +1,216 @@
+/*configurações globais de espaçamento e margem se inicializa com 0;*/
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+} 
+/*estilizando o Body */
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background: #f4f4ff;
+    font-size:12px;
+}
+
+/*estilizando a div com id=principal*/
+
+#principal{
+    width:auto;
+    height:auto;
+
+}
+/*coloquei uma imagem no cabecalho  onde ficam os Menus*/
+/*aqui foi alterado o background e foi ajustado a repetição do logo para não repetir*/
+#cabecalho_superior{
+    width:auto;
+    height:100px;
+    background:url(/Imagens/logotipo.png);
+    background-size:auto;
+    background-position: left;
+    background-repeat: no-repeat;
+   
+}
+
+
+/*Criando uma classe de fundo azul para ser reutilizada*/
+.fundo_azul{
+    background:#28A5D9;
+}
+
+/*caveçalho coloquei uma largura de 100 pixels*/ 
+#cabeçalho {
+    width:100px;
+}
+/*configurando o id da nav id="menu cima com os ul e <li>*/
+/* foi adicionado uma largura e altura e uma cor de fundo branca alem de uma margin automatica*/
+#menu-cima{
+    width:960px;
+    height:20px;
+    background:#FFF;
+    margin:0 auto;
+/*usando text-aling eu consigo levar o meu menu para  a esquerda grudado.*/    
+    text-align:right; 
+/*mudando o tamnho da fonte do menu para 12px;*/    
+    font-size:20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+/*configurando os menus de navegação ul e li colocando ele fora de linha*/ 
+#menu-cima ul li{
+    display:inline;
+    margin-left:10px;
+    
+/*usando o margin left eu aumento o espaçamento entre o meu menu de navegação*/
+}
+/*mudando o meu ul estilizando ele:*/
+#menu-cima li{
+    background:white;
+   
+} 
+
+/*agora vou mudar a cor do link e tirar o link apontando para o link da tag <a> dentro do <ul> e <li>:*/
+#menu-cima ul li a:hover{  /*com a propriedade hover consigo colocar cor brilhando no button*/
+    color:#28A5D9;
+    font-weight:bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor:pointer;
+    transition: .3s ease all; /*aqui eu estipulo o tempo de brilho quando passo o mouse */
+    font-size:18px;
+}
+  
+
+/*começando a estilizar o cabecalho do meio*/
+#cabecalho_meio {
+width:100%;
+height:110px;
+
+
+}
+/*vamos alterar o cabecalho do meio o H1*/
+#cabecalho_meio h1 {
+text-indent: -9999px; /*aqui eu indentei a h1, isso que dizer que esta ocultado*/
+}
+
+/*criando uma classe pra estilizar o paragrafo*/
+.sacola {
+
+    background:url(/Imagens/kart2.png)no-repeat top right; /*O meu background:url sera uma imagem de carrinho de compras*/
+    width:101px;
+    height:91px;
+    /*Existe um elemento no CSS chamado de Position*/
+    /*exemplo position absolute*/
+    position:absolute;  /*O position absolute, deixa a posição absoluta da classe*/
+    font-size:13px;     /*deixei a fonte com 5 de tamanho*/
+    top:50px;           /* O atributo top, ele e a distancia entre o topo e a margem*/
+    right:100px;        /*deixei a direita com 100 pixels posso alterar conforme a nexessidade*/
+    text-align:right;   /*alinhei o texto a direita */
+    padding-right:100px;/*usei o Padding-right para ajustar o texto junto com o icone do carrinho*/
+    color:#2AFF;      /*apliquei a cor do Site ao Texto do Carrinho de compras*/
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /*tipo de fonte*/
+    font-style: italic; /*estilo de fonte*/
+
+}
+
+/*criação da classe da div do Busca, colocando uma posição absoluta e ajustando largura e altura*/
+/*foi ajustado:largura,topo, esquerda, posição da div a direita, e o espaçamento com padding-right*/   
+.busca {
+    position:absolute;
+    width:400px; /*Largura*/
+    top:55px;     /*distancia entre o topo*/ 
+    left:450px;   /* alinhado a esquerda*/
+    text-align:right;  /* movendo o texto */
+    padding-right:400px;  /* espaçamento */
+
+}
+
+/* para alterar a altura da caixa da barra de pesquisa, se utiliza id+input:()type=search*/
+/*A mesma coisa e pra ser feita com o botão pesquisar input(type=button)*/ 
+.busca input[type=search]{  /*para modificar os inputs usamos as chaves como arrays*/
+
+    width: 150px;
+    height:30px;
+    border-radius:10px;
+    background:rgba(0,0,0,.050)rgba(0,0,0,0.70); /*preciso aplicar 02 pra ter efeito*/
+     
+}
+/*alteração do Campo de Busca Span estilização dele*/
+.busca span{
+    font-size:20px;
+    font-weight:bold;
+    font-style:italic;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#28A5D9;
+}
+
+/*configuração do botao buscar da caixa ao lado do pesquisar*/ 
+.busca input[type=button]{
+    size:15px;
+    width:150px;
+    height:30px;
+    border-radius:10px;
+    background:whitesmoke;
+    cursor:row;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style:bold;
+    font-size:14px;
+}
+
+
+
+/* criei uma classe para ser chamada */
+
+.fundo_azul{
+    background:#28A5D9;
+}
+
+/*adicionando mais uma classe agora ao cabecalho_inferior pra chamar de novo fundo_principal*/
+/*classe adicionada:*/
+.fundo_do_inferior{
+    background:#28A5D9;
+}
+/*foi criado uma classe com linha vertical a esquerda com borda de 1 pixels */
+.linha_vertical{
+    border-right:1px solid #ccc;
+  
+    
+}
+/*trabalhando agora a utima parte do meu cabecalho inferior que será a parte do menu*/
+
+#cabecalho_inferior{
+    /*essas são as mesmas configurações que coloquei na outra <div>*/
+    width:100%;
+    height:30px;
+    background:whitesmoke;
+    margin:0 auto; /*isso centraliza a caixa */
+    text-align:center; /*agora eu centralizo o texto e depois abaixo uso o padding-left*/
+    border-bottom:1px solid #ccc;
+    line-height: 22px; /*agora coloco a altura da linha */ 
+ 
+       
+}
+#cabecalho_inferior ul{
+    list-style:none; /* tirei a linha de estilo neutra */
+    /*alterei a fonte*/
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+#cabecalho_inferior ul li{
+    /*foi adicionado um margin-left e um padding para separar no ul li. */
+    display:inline;
+    /*com esse display inline eu coloco em serie o menu */
+    margin-left:10px;
+    padding:20px 40px;
+    padding-top:8px;
+}
+#cabecalho_inferior ul li a:hover{
+    /* foi aplicada as configurações de estilo do menu nav anterior */
+    color:#28A5D9; /*foi colocado  color igual do menu */
+    font-weight:bold; /*peso da fonte negrito*/
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor:pointer; /*cursor pointer pro cursor*/
+    transition: .2s ease all; /*aqui eu estipulo o tempo de brilho quando passo o mouse */
+    font-size:20px; 
+       
+}    
+/*Finalizamos o Cabeçalho agora iremos trabalhar o Layout*/ 
+
+
