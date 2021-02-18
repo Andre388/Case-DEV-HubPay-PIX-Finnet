@@ -16,4 +16,7 @@ public function dados(){
   PRIMARY KEY(codigo)
   );";
   
+  echo dados();
+  echo "<br>";
+  
   ?>
