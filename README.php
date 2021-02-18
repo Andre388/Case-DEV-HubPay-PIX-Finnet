@@ -64,7 +64,7 @@ agora que eu ja tenho minha consulta, eu vou chamar a função, vou criar uma va
         <td> e-mail </td>
         <td> Data de Cadastro </td>
     </tr>
-    aqui vai a função em php:
+    <p>aqui vai a função em php:<br></p> 
     <?php while($dado = $con->fetch_array()) }  ?>
     <!-- essa função ela pega a variavel $con e a fetch_array vai armazenar na variavel $dado -->
     <tr>
