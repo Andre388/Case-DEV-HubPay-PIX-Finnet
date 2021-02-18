@@ -1,0 +1,22 @@
+<DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> pilares </title>
+</head>
+<body>
+<h1 id="titulo"><strong>Arquitetura e Tecnicas de Desenvolvimento</strong></h1>
+<br>
+<?php
+echo "-> Organização de um Sistema. <br>";
+echo "-> Processo de Componentização. <br>";
+echo "-> Relacionamento entre Sistemas. <br>";
+echo "-> Modo de Governança. <br>";
+echo "-> Ambiente em que este software será desenvolvido (ou deployado) <br>";
+echo "-> O projeto em si, como o Projeto esta Organizado <br>";
+echo "-> Projeção: ou seja, o que você imagina desse software pro futuro,<br> pra como você consegue projetar isso pro crescimento do seu software a longo prazo.<br>";
+echo "-> A parte de Cultura:<br> A cultura da empresa, a forma de que como as pessoas desenvolvem,<br> as tecnologias que elas escolhem,<br> tudo isso influiencia no processo que eu produzi todo o meu software<br>";
+// fim dos Pilares
+?> 
+</body>
+<html>
