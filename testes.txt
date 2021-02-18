@@ -1,0 +1,23 @@
+<DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> pilares </title>
+</head>
+<body>
+<h1 id="titulo"><strong> Teste de Software </strong></h1>
+<br>
+<?php
+echo "->Testes Tipos <br>"; ?>
+<table border="1">
+	<tr>
+            <td></td>
+	    <td></td>
+            <td></td>
+            <td></td>
+           
+        </tr>
+</table>
+  
+</body>
+<html>
