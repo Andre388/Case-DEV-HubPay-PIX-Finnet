@@ -76,8 +76,6 @@ agora que eu ja tenho minha consulta, eu vou chamar a função, vou criar uma va
         <a href="excluir.php?codigo="<?php echo $dado["codigo"];?> Excluir </a></td>
     </tr><!--fim da tr-->
     </table><!-- fim da table-->
-</body>
-</html> <!--fim do arquivo -->
 <?php
   echo "<br>";
   echo "note que na parte da date tive que converter para o formato brasileiro usando strtotime do timestamp <br>";
@@ -97,7 +95,8 @@ agora que eu ja tenho minha consulta, eu vou chamar a função, vou criar uma va
   //-END README.
   
 ?>
-  
+</body>
+</html> <!--fim do arquivo -->  
   
   
   
