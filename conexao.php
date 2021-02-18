@@ -11,13 +11,13 @@ $bd = "loja";
 // criando um novo objeto e vou definir dentro dela as minhas variaveis (com parametros);
 //new object criado:
 
-$mysqli = new mysqli($host, $usuario, $senha, $bd);
+$mysqli = new mysqli($host, $usuario, $senha, $bd); //estrutura de objeto que criei
 
 
 //agora vou fazer um if pra verificar se houve algum erro:
-if($mysqli->connect_errno)
+if($mysqli->connect_errno) // conexão;
 //mostre a mensagem:
-echo "falha na conexão: (" .$mysqli->connect_errno. ") ".$mysqli->connect_error;
+echo "falha na conexão: (" .$mysqli->connect_errno. ") ".$mysqli->connect_error; 
 
 // retorna se ouve algum erro se caso não ela retorna false.
 // fim do arquivo de conexão ao Banco de dados
