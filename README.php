@@ -2,7 +2,7 @@
 
 # Case-DEV-HubPay-PIX-Finnet
 // Desafio de fazer Migração de uma Integração que temos com a ADIQ. 1) criado um e-commerce com Metodo que Solicita pagamentos, Consulta de Pagamentos, Metodo de Cancelamento // por Transação utilizando Header e PARAM!
-echo "arquivo:br";
+echo "arquivo:<br>";
 // Minha estrutura de arquivos desse projeto se resume:
 // 1-pasta contendo os arquivos de imagem do e-commerce
 // 2-pasta contendo arquivos editados em .JS
@@ -68,10 +68,10 @@ agora que eu ja tenho minha consulta, eu vou chamar a função, vou criar uma va
     <?php while($dado = $con->fetch_array()) }  ?>
     <!-- essa função ela pega a variavel $con e a fetch_array vai armazenar na variavel $dado -->
     <tr>
-      <td><?php echo $dado["tabela"]; ?></td>
-      <td><?php echo $dado["codigo"]; ?></td>
-      <td><?php echo $dado["email"]; ?></td>
-      <td><?php echo date("d/m/Y", strtotime($dado["datadecadastro"])); ?></td>
+      <td><?php echo $dado["tabela"];?></td>
+      <td><?php echo $dado["codigo"];?></td>
+      <td><?php echo $dado["email"];?></td>
+      <td><?php echo date("d/m/Y", strtotime($dado["datadecadastro"]));?></td>
       <td><a href="editar.php?codigo=<?php echo $dado["codigo"];?>Editar</a> |
         <a href="excluir.php?codigo=<?php echo $dado["codigo"];?>Excluir</a></td>
     </tr><!--fim da tr-->
@@ -79,10 +79,10 @@ agora que eu ja tenho minha consulta, eu vou chamar a função, vou criar uma va
 </body>
 </html> <!--fim do arquivo -->
 <?php
-  echo "br";
-  echo "note que na parte da date tive que converter para o formato brasileiro usando strtotime do timestamp br";
-  echo "esse e o exemplo que queria mostrar dele pegando as informações do br Banco de dados PHPmyadmin usando o localhost:8080 porta 3039, br ou 127.0.0.1";
-  echo "foi inserido dois botãos que levarão a links para edição desses dados dos clientes dentro do index.php br";
+  echo "<br>";
+  echo "note que na parte da date tive que converter para o formato brasileiro usando strtotime do timestamp <br>";
+  echo "esse e o exemplo que queria mostrar dele pegando as informações do <br> Banco de dados PHPmyadmin usando o localhost:8080 porta 3039, br ou 127.0.0.1";
+  echo "foi inserido dois botãos que levarão a links para edição desses dados dos clientes dentro do index.php <br>";
   
 
   //------------------------------------------------------------------------------------------------------------------------------------
