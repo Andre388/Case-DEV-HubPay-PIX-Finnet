@@ -81,15 +81,19 @@ agora que eu ja tenho minha consulta, eu vou chamar a função, vou criar uma va
 <?php
   echo "<br>";
   echo "note que na parte da date tive que converter para o formato brasileiro usando strtotime do timestamp <br>";
-  echo "esse e o exemplo que queria mostrar dele pegando as informações do <br> Banco de dados PHPmyadmin usando o localhost:8080 porta 3039, br ou 127.0.0.1";
+  echo "esse e o exemplo que queria mostrar dele pegando as informações do <br> Banco de dados PHPmyadmin usando o localhost:8080 porta 3039, <br> ou 127.0.0.1";
   echo "foi inserido dois botãos que levarão a links para edição desses dados dos clientes dentro do index.php <br>";
   
 
   //------------------------------------------------------------------------------------------------------------------------------------
   echo "depois la no CSS eu vou estilizar a minha tabela, br posso criar classe, border, colocar ids na <table> br enfim so consegui fazer a conexão e estilizar o e-commerce!";
-  echo "Este e o Fim do arquivo README br";
-  echo "Favor considerar todo o trabalho afim de mesmo de não houver integração com os meios de pagamento.br";
+  echo "Este e o Fim do arquivo README <br>";
+  echo "Favor considerar todo o trabalho afim de mesmo de não houver integração com os meios de pagamento.<br>";
   //------------------------------------------------------------------------------------------------------------------------------------
+  echo "Ao final da Construção do e-commerce utilizarei o metodo de testes unitarios, ou seja de uma unidade utilizando o PHPunit.<br>";
+  echo "E um framework que compõe o composer(gerenciador de dependencias do PHP)";
+  echo "Usando a rotina de testes com o PHPunit, garanto a integridade do meu sistema, em relação as funcionalidades";
+  echo "Darei continuidade ao projeto aos poucos!";
   //-END README.
   
 ?>
