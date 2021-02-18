@@ -80,7 +80,7 @@ agora que eu ja tenho minha consulta, eu vou chamar a função, vou criar uma va
 <?php
   echo "<br>";
   echo "note que na parte da date tive que converter para o formato brasileiro usando strtotime do timestamp <br>";
-  echo "esse e o exemplo que queria mostrar dele pegando as informações do <br> Banco de dados PHPmyadmin usando o localhost:8080 porta 3039, <br> ou 127.0.0.1";
+  echo "esse e o exemplo que queria mostrar dele pegando as informações do <br> Banco de dados PHPmyadmin usando o localhost:8080, <br> ou 127.0.0.1 que e o localhost";
   echo "foi inserido dois botãos que levarão a links para edição desses dados dos clientes dentro do index.php <br>";
   //------------------------------------------------------------------------------------------------------------------------------------
   echo "depois la no CSS eu vou estilizar a minha tabela, br posso criar classe, border, colocar ids na <table> br enfim so consegui fazer a conexão e estilizar o e-commerce!";
