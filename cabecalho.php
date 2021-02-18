@@ -24,9 +24,7 @@
     </div><!-- Fim da div paragrafo --> 
 
     <!-- inicio da minha section -->
-    <section class="busca">
-    
-    
+    <section class="busca">    
     <!-- Inicio da Form -->    
 <form action="#">
     <label>
@@ -34,11 +32,9 @@
         <input type="search"  name="pesquisa" id="pesquisa" placeholder="Pesquisar" lang="pt-br">
         <input type="button" id="botão de pesquisa" name="botão" value=" Iniciar Busca ">
     </label>     
-</form>    
-    </section> 
-
+</form>         
+</section> 
 </div><!--fecha cabecalho meio-->
-
 <div id="cabecalho_inferior" class="fundo_do_inferior">
     <nav id="menu-principal">
         <ul>
@@ -48,6 +44,6 @@
             <li class="linha-vertical"><a href="#">  Quem Somos  </a> </li>
         </ul>    
 
-    </nav>
+    </nav><!-- fim da nav -->
 
 </div><!--fecha cabecalho inferior-->    
