@@ -72,11 +72,10 @@ agora que eu ja tenho minha consulta, eu vou chamar a função, vou criar uma va
       <td><?php echo $dado["codigo"];?></td>
       <td><?php echo $dado["email"];?></td>
       <td><?php echo date("d/m/Y",strtotime($dado["datadecadastro"])); ?></td>
-      <td><a href="editar.php?codigo="<?php echo $dado["codigo"]; ?> Editar </a><td>
-      <a href="excluir.php?codigo="<?php echo $dado["codigo"]; ?>  Excluir </a></td>
-    </tr><!--fim da tr-->
+      <td><a href="editar.php?cdigo=">Editar | Excluir</td>
+      </tr><!--fim da tr-->
       <?php } ?> <!-- Guia de Fechamento -->
-    </table><!-- fim da table-->
+</table><!-- fim da table-->
       
 <?php
   echo "<br>";
