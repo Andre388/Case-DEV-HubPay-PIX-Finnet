@@ -65,24 +65,24 @@ agora que eu ja tenho minha consulta, eu vou chamar a função, vou criar uma va
         <td> Data de Cadastro </td>
     </tr>
     <p> aqui vai a função em php:<br> </p> 
-    <?php while($dado = $con->fetch_array()); }  ?>
+    <?php while($dado = $con->fetch_array()) {   ?> <!--guia de abertura detro da function fetch_array()); -->
     <!-- essa função ela pega a variavel $con e a fetch_array vai armazenar na variavel $dado -->
     <tr>
       <td><?php echo $dado["tabela"];?></td>
       <td><?php echo $dado["codigo"];?></td>
       <td><?php echo $dado["email"];?></td>
-      <td><?php echo date("d/m/Y", strtotime($dado["datadecadastro"]));?></td>
-      <td><a href="editar.php?codigo="<?php echo $dado["codigo"];?> Editar </a> 
-        <a href="excluir.php?codigo="<?php echo $dado["codigo"];?> Excluir </a></td>
+      <td><?php echo date("d/m/Y",strtotime($dado["datadecadastro"])); ?></td>
+      <td><a href="editar.php?codigo="<?php echo $dado["codigo"]; ?> Editar </a> 
+        <a href="excluir.php?codigo="<?php echo $dado["codigo"]; ?>  Excluir </a></td>
     </tr><!--fim da tr-->
+      <?php } ?> <!-- Guia de Fechamento -->
     </table><!-- fim da table-->
+      
 <?php
   echo "<br>";
   echo "note que na parte da date tive que converter para o formato brasileiro usando strtotime do timestamp <br>";
   echo "esse e o exemplo que queria mostrar dele pegando as informações do <br> Banco de dados PHPmyadmin usando o localhost:8080 porta 3039, <br> ou 127.0.0.1";
   echo "foi inserido dois botãos que levarão a links para edição desses dados dos clientes dentro do index.php <br>";
-  
-
   //------------------------------------------------------------------------------------------------------------------------------------
   echo "depois la no CSS eu vou estilizar a minha tabela, br posso criar classe, border, colocar ids na <table> br enfim so consegui fazer a conexão e estilizar o e-commerce!";
   echo "Este e o Fim do arquivo README <br>";
@@ -92,10 +92,9 @@ agora que eu ja tenho minha consulta, eu vou chamar a função, vou criar uma va
   echo "E um framework que compõe o composer(gerenciador de dependencias do PHP)<br>";
   echo "Usando a rotina de testes com o PHPunit, garanto a integridade do meu sistema, em relação as funcionalidades <br>";
   echo "Darei continuidade ao projeto aos poucos!<br>";
-  //-END README.
-  
-?>
-</body>
+  //-FIM DO PHP!
+  ?>
+</body> <!--fim do body -->
 </html> <!--fim do arquivo -->  
   
   
