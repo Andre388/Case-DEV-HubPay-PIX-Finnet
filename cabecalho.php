@@ -3,7 +3,9 @@
 <head>
 <meta charset="utf-8">
 <head>
-<body>    
+<body>
+    
+ <?php   
 <div id="cabecalho_superior">
     <!-- Criando o Nav de navegação -->
     <nav id="menu-cima">
@@ -67,6 +69,7 @@
      </nav><!-- fim da nav -->
 
 </div><!--fecha cabecalho_inferior-->
+    ?>    
     </body>
     </html>
     
