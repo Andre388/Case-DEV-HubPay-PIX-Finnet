@@ -4,11 +4,12 @@
     padding:0;
     text-decoration:none;
 } 
+
 /*estilizando o Body */
 body{
     font-family:Arial, Helvetica, sans-serif;
     background: #f4f4ff;
-    font-size:12px;
+    font-size:11px;
 }
 
 /*estilizando a div com id=principal*/
@@ -208,9 +209,9 @@ text-indent: -9999px; /*aqui eu indentei a h1, isso que dizer que esta ocultado*
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     cursor:pointer; /*cursor pointer pro cursor*/
     transition: .2s ease all; /*aqui eu estipulo o tempo de brilho quando passo o mouse */
-    font-size:20px; 
-       
+    font-size:20px;        
 }    
 /*Finalizamos o Cabeçalho agora iremos trabalhar o Layout*/ 
+/*atualização da folha de estilo*/
 
 
