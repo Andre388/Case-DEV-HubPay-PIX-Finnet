@@ -7,7 +7,7 @@
 </head>
 <body>
 <div id="corpo-loja"> <!-- inicio da div corpo de loja -->
-<aside class="banner"><img src="imagens/banner-meio.png"
+<aside class="banner"><img src="imagens/banner-meio.png">
 </div><!-- fim da div corpo de loja -->
   
   <section class="categoria">
