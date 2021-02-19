@@ -29,8 +29,8 @@
               <li> <a href="#">Produto 08 </a></li>
               <li> <a href="#">Produto 09 </a></li>
               <li> <a href="#">Produto 10 </a></li>
-            </ul> 
-    </nav>  
+            </ul><!-- fim do meu menu com nav --> 
+    </nav><!-- fim da nav -->  
   </section><!-- fim da section de categorias -->  
   
   
