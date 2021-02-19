@@ -14,9 +14,10 @@
 
       	<section id="cabecalho">
 		  
-      	</section><!-- fim cabecalho -->
+      	</section><!-- fim do topo e cabecalho -->
 
-      	<section id="corpo">
+      	<section id="corpo"> <!-- inicio do corpo do meu arquivo -->
+		<?php include_once("home.php") ?>
 		
 
       	</section><!-- fim corpo -->
