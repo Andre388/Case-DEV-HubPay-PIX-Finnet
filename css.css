@@ -17,18 +17,24 @@ body{
 #principal{
     width:auto;
     height:auto;
-
 }
+
+*cabeçalho coloquei uma largura de 100 pixels*/ 
+#cabeçalho {
+    width:100px;
+    background:#ccc;
+    
+}
+
 /*coloquei uma imagem no cabecalho  onde ficam os Menus*/
 /*aqui foi alterado o background e foi ajustado a repetição do logo para não repetir*/
 #cabecalho_superior{
     width:auto;
-    height:100px;
+    height:168px;
     background:url(/Imagens/logotipo.png);
     background-size:auto;
     background-position: left;
     background-repeat: no-repeat;
-   
 }
 
 
@@ -37,10 +43,7 @@ body{
     background:#28A5D9;
 }
 
-/*caveçalho coloquei uma largura de 100 pixels*/ 
-#cabeçalho {
-    width:100px;
-}
+
 /*configurando o id da nav id="menu cima com os ul e <li>*/
 /* foi adicionado uma largura e altura e uma cor de fundo branca alem de uma margin automatica*/
 #menu-cima{
@@ -213,5 +216,27 @@ text-indent: -9999px; /*aqui eu indentei a h1, isso que dizer que esta ocultado*
 }    
 /*Finalizamos o Cabeçalho agora iremos trabalhar o Layout*/ 
 /*atualização da folha de estilo*/
+
+/* Estilização do Banner: */
+/*criação da classe banner*/
+.banner {
+    width:960px;      /* largura total igual do meu cabecalho */
+    height:auto;      /* altura será automatica */
+    margin:0 auto;    /* vai ser 0 auto pra ficar centralizado */
+    background:#0FFF; /* fundo branco */
+    
+}
+/* pego as mesmas configurações do banner */
+#corpo {
+    widht:960px;
+    height:auto;
+    margin:0 auto;
+    background:#0FFF;
+    margin-top:10px;  /* mudamos no topo pra ficar centralizado aqui */
+   
+
+}
+
+
 
 
