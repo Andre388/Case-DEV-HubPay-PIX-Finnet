@@ -206,6 +206,7 @@ text-indent: -9999px; /*aqui eu indentei a h1, isso que dizer que esta ocultado*
     padding-top:8px;
 }
 #cabecalho_inferior ul li a:hover{
+    
     /* foi aplicada as configurações de estilo do menu nav anterior */
     color:#28A5D9; /*foi colocado  color igual do menu */
     font-weight:bold; /*peso da fonte negrito*/
@@ -220,6 +221,7 @@ text-indent: -9999px; /*aqui eu indentei a h1, isso que dizer que esta ocultado*
 /* Estilização do Banner: */
 /*criação da classe banner*/
 .banner {
+    
     width:960px;      /* largura total igual do meu cabecalho */
     height:auto;      /* altura será automatica */
     margin:0 auto;    /* vai ser 0 auto pra ficar centralizado */
@@ -227,15 +229,36 @@ text-indent: -9999px; /*aqui eu indentei a h1, isso que dizer que esta ocultado*
     
 }
 /* pego as mesmas configurações do banner */
-#corpo {
+#corpo { /*copiei as configurações para compor o corpo*/
+    
     widht:960px;
     height:auto;
     margin:0 auto;
     background:#0FFF;
     margin-top:10px;  /* mudamos no topo pra ficar centralizado aqui */
-   
-
 }
+/* formatando e criando a minha classe categoria */
+
+.categoria {  /*estou estilizando categorias somente*/
+    
+    width:219px;
+    height:auto;
+    float:left;
+    margin-hight:8px;
+    border="solid 1 px #ccc";
+    font-weight:bold;
+    margin-top:10px;
+}
+.categorias h2 { /* estou estilizando categorias h2 da classe */
+    width:208px;
+    height:19px;
+    padding-left:10px;
+    margin-bottom:10px;
+    color:#FFF;
+    font-size:16px;
+}
+
+
 
 
 
