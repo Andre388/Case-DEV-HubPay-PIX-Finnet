@@ -30,7 +30,7 @@ $con = $mysqli->query($consulta) or die ($mysqli->error);
       <td> <?php while($dado) = $con->fech_array()); { ?> </td>
       
       <!-- agora detro dos <td></td> eu vou colocar a minha variavel $dado pra exibir os valores do banco de dados PHPmyadmin que ta criado -->
-      <!-- como eu quero mostrar o codigo eu uso ["codigo'] -->
+      <!-- como eu quero mostrar o codigo eu uso ["codigo"] -->
       
       <td><?php echo $dado["codigo"]; ?></td>
       <td><?php echo $dado["nome"];</td>
