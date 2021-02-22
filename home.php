@@ -46,7 +46,6 @@
     </nav><!-- fim da nav -->  
   </section><!-- fim da section de categorias -->  
   
-  
-<body>
-<html>  
+<body><!-- fim do corpo da pagina -->
+<html><!-- Fim do arquivo HTML -->  
   
