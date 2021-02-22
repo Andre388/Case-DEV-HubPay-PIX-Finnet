@@ -218,6 +218,7 @@ text-indent: -9999px; /*aqui eu indentei a h1, isso que dizer que esta ocultado*
 /*Finalizamos o Cabeçalho agora iremos trabalhar o Layout*/ 
 /*atualização da folha de estilo*/
 
+
 /* Estilização do Banner: */
 /*criação da classe banner*/
 .banner {
@@ -285,7 +286,7 @@ font-size:12px;
 .categorias ul ul li{
     border-bottom:solid 1px #CCC;
     padding:5px 0px 5px 5px;
-    /*continuando*/
+    /* continuando estilizaão */
 }
 
 
