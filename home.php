@@ -12,7 +12,7 @@
   
 <!------------------------------------------------------------------------------------------>  
   <section class="categoria">
-  <h2> class="fundo_azul" Categorias </h2>
+  <h2> class="fundo_azul"  Categorias </h2>
     <nav> <!-- INICIO DA NAV -->
       
 <ul> <!--categoria 01 -->
