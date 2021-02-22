@@ -9,7 +9,7 @@ $bd = "loja";
 /*agora eu vou criar a variavel que vai armazenar a conexão com o banco de dados que se chamara:*/
 /*vai ser chamado varias vezes ao longo do meu projeto*/
 // criando um novo objeto e vou definir dentro dela as minhas variaveis (com parametros);
-//new object criado:
+//new object criado Instanciamento:
 
 $mysqli = new mysqli($host, $usuario, $senha, $bd); //estrutura de objeto que criei
 
