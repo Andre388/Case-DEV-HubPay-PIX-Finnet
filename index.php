@@ -7,7 +7,7 @@
 </head>
 <body>
 <div id="Principal">
-     	<section id="cabecalho">
+     	<section id="cabecalho"><!--Inicio do ID cabecalho.php-->
 		<?php include_once("cabecalho.php"); ?> <!-- temos o arquivo que compõe o cabecalho com a margem e menus do meu site -->
       	</section><!-- fim do topo e cabecalho -->
       	<section id="corpo"> <!-- inicio do corpo do meu arquivo -->
