@@ -257,7 +257,36 @@ text-indent: -9999px; /*aqui eu indentei a h1, isso que dizer que esta ocultado*
     color:#FFF;
     font-size:16px;
 }
+/*Estilizando a Categoria ul*/
+.categorias ul{
+    width:219px;
+    list-style:none;
+    
+}
+/*Estilizando a barra de Navegação e Links*/
+.categorias ul li a{
+    font-size:16px;
+    color:#FFF;
+    text-decoration:none;
+}
+/*Estilizando o meu Menu*/
 
+.categorias ul ul {
+    width:100%;
+    background:#FFF;
+}
+/*alterando as Letras do Menu*/
+.categorias ul li a{
+color:#666;
+font-size:12px;    
+}
+/*alterando e colocando bordas*/
+
+.categorias ul ul li{
+    border-bottom:solid 1px #CCC;
+    padding:5px 0px 5px 5px;
+    /*continuando*/
+}
 
 
 
