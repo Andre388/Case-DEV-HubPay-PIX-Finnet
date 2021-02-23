@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!-- Inicio do cabecalho do HTML -->
 <html>
 <head>
 <meta charset="utf-8">
