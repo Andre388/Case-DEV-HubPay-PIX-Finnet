@@ -1,6 +1,6 @@
 <?php
 
-/*vou definir as minhas variaveis principais que serão: */
+/* Vou definir as minhas variaveis principais que serão: */
 $host = "localhost";
 $usuario = "root";
 $senha = "";
