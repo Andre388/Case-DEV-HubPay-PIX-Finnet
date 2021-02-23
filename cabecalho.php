@@ -1,6 +1,6 @@
 <!DOCTYPE html><!-- Inicio do cabecalho do HTML -->
 <html>
-<head>
+<head><!-- Head do cabecalho -->
 <meta charset="utf-8">
 <head>
 <body>
