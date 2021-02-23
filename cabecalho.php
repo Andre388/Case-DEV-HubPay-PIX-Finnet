@@ -8,7 +8,7 @@
  <?php   
 <div id="cabecalho_superior">
     <!-- Criando o Nav de navegação -->
-    <nav id="menu-cima">
+    <nav id="menu-cima"> /*Inicio do menu nav */
         <ul>
             <li><a href="#"> Minha conta </a></li>
             <li><a href="#"> Meu carrinho</a></li>
