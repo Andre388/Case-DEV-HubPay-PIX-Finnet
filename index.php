@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html><!-- inicio do bloco -->
+<html> <!-- Tag Html -->
 <head>
     <meta charset="utf-8">
     <title>www.E-commerce do Andrezinho.com.br </title>
